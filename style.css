@@ -1,0 +1,25 @@
+body {
+
+    background: aliceblue;
+}
+h3 {
+    color: black;
+    text-align: center;
+    min-height: 50px;
+    min-width: 1px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px -1px 8px 0px black;
+    transition: 0.3s;
+    margin-bottom: 7px;
+}
+h1 { 
+    text-align: center;
+}
+
+h3:hover {
+    color: aliceblue;
+    background-color: rgb(50, 50, 50);
+    border-width: 5px;
+    box-shadow: 3px -1px 8px 0px rgb(50, 50, 50);
+}
